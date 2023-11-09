@@ -1,13 +1,14 @@
-import { Wrapper } from './Header.styled';
-import { Logo } from '../../assets/svgComponents/Logo';
+
 import { Tell } from '../../assets/svgComponents/Tell';
+import { Logo } from '../../assets/svgComponents/Logo';
+import css from './styles.module.scss';
 
 export const Header = () => {
-  return <Wrapper>
-    <div>
+  return <div className={css.header}>
+    <div className={css.tellFlex}>
       <Tell />
       <p>+3809843559874</p>
     </div>
     <Logo />
-  </Wrapper>
+  </div>
 }

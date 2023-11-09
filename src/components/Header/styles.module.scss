@@ -1,0 +1,15 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    .tellFlex {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        p {
+            font-family: Radio Canada;
+            font-size: 24px;
+            font-weight: 300;
+        }
+    }
+}
