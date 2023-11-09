@@ -7,7 +7,7 @@ export const Header = () => {
   return <div className={css.header}>
     <div className={css.tellFlex}>
       <Tell />
-      <p>+3809843559874</p>
+      <a href='tel:+3809843559874'>+3809843559874</a>
     </div>
     <Logo />
   </div>
